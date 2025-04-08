@@ -29,6 +29,13 @@ const { author } = details
 console.log('Song: ', anotherSong);
 console.log('Duration: ', duration);
 console.log('Author: ', author);
+console.log('Author', audioPlayer.details.author);
+
+const [, , trunks = 'Not found']: string[] = ['Goku','Vegeta'];
+// const trunks = dbz[3] || 'No hay personaje';
+
+console.error('Personaje 3: ', trunks);
+
 
 
 
